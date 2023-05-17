@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 @Entity
 @NoArgsConstructor
@@ -14,6 +15,7 @@ import javax.persistence.Id;
 @Setter
 public class Bus {
     @Id
+
     int bus_Number;
     String bus_Name;
     String source,destination;
